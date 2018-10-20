@@ -1,7 +1,6 @@
 <DOCTYPE!html>
 <html>
- <head>
-  <style>
+ <style>
   body {
      background-color: blue;
      }
@@ -11,12 +10,6 @@
      font-family: times new roman;
      color: white;
      text-align: center;
-     }
-  img {
-     border-color: white;
-     width: 963px; 
-     height: 516px;
-     left:200px;
      }
   h2 {
      font-family: georgia;
@@ -30,12 +23,19 @@
      color: white;
      text-align: left;
      }
+  .center {
+     margin: auto;
+     border: 7px double white;
+     width: 60%;
+     }
   </style>
- </head>
 <body>
   <h1> Il sito degli orsi polari </h1>
-  <img src="orso.jpg" border="5"/>
+     <div class="center">
+  <img src="orso.jpg"/>
+     </div>
   <h2> ~un orso polare </h2>
-  <h3> Vai alla pagina Wikipedia degli orsi polari! ---> </h3> <button onclick="myFunction()">Ursus maritimus</button>
+  <h3> Vai alla pagina Wikipedia degli orsi polari! </h3> 
+ <button onclick="myFunction()">Ursus maritimus</button>
 </body>
 </html>
